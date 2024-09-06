@@ -32,9 +32,6 @@ export default function Home() {
       isUrgent: false,
     };
 
-    //todos.push(newTodo); 
-    //setTodos(todos);
-    //new changes
     setTodos((prevTodos) => [...prevTodos, newTodo]);
     
   };
